@@ -16,7 +16,7 @@ public class SnakeController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Screen.lockCursor = true;
+        Cursor.visible = false;
         rb = GetComponent<Rigidbody>();
     }
 
